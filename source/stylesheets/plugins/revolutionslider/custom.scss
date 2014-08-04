@@ -68,8 +68,8 @@
 .tp-leftarrow.default:hover,
 .tp-rightarrow.default:hover { opacity: 1; }
 
-.tp-leftarrow.default { background: url(/images/prev.png) no-repeat center center; }
-.tp-rightarrow.default { background: url(/images/next.png) no-repeat center center; }
+.tp-leftarrow.default { background: image-url('prev.png') no-repeat center center; }
+.tp-rightarrow.default { background: image-url('next.png') no-repeat center center; }
 
 @media (min-width: 768px) and (max-width: 979px) {
 	

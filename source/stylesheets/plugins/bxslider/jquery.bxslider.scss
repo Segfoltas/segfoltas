@@ -36,7 +36,7 @@
 		width: 100%;
 		min-height: 50px;
 		height: 100%;
-		background: url(/images/bxslider/bx_loader.gif) center center no-repeat #fff;
+		background: image-url('bxslider/bx_loader.gif') center center no-repeat #fff;
 	}
 
 /* #PAGER
@@ -74,12 +74,12 @@
 
 	.bx-wrapper .bx-prev {
 		left: 30px;
-		background: url(/images/bxslider/bg_direction_nav.png) no-repeat center left;
+		background: image-url('bxslider/bg_direction_nav.png') no-repeat center left;
 	}
 	
 	.bx-wrapper .bx-next {
 		right: 30px;
-		background: url(/images/bxslider/bg_direction_nav.png) no-repeat center right;
+		background: image-url('bxslider/bg_direction_nav.png') no-repeat center right;
 	}
 	
 	.bx-wrapper .bx-prev:hover {
@@ -120,7 +120,7 @@
 		outline: 0;
 		margin: 0 3px;
 		text-indent: -9999px;
-		background: url(/images/bxslider/controls.png) -86px -11px no-repeat;
+		background: image-url('bxslider/controls.png') -86px -11px no-repeat;
 	}
 	
 	.bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -135,7 +135,7 @@
 		outline: 0;
 		margin: 0 3px;
 		text-indent: -9999px;
-		background: url(/images/bxslider/controls.png) -86px -44px no-repeat;
+		background: image-url('bxslider/controls.png') -86px -44px no-repeat;
 	}
 	
 	.bx-wrapper .bx-controls-auto .bx-stop:hover,
