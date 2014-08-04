@@ -1,31 +1,31 @@
 //
 // Libs
-//= require plugins/jquery-2.1.1.min
-//= require plugins/viewport/jquery.viewport
-//= require plugins/easing/jquery.easing.1.3
-//= require plugins/simpleplaceholder/jquery.simpleplaceholder
-//= require plugins/fitvids/jquery.fitvids
-//= require plugins/animations/animate
-//= require plugins/superfish/hoverIntent
-//= require plugins/superfish/superfish
-//= require plugins/revolutionslider/jquery.themepunch.plugins.min
-//= require plugins/revolutionslider/jquery.themepunch.revolution.min
-//= require plugins/bxslider/jquery.bxslider.min
-//= require plugins/magnificpopup/jquery.magnific-popup.min
-//= require plugins/isotope/imagesloaded.pkgd.min
-//= require plugins/isotope/isotope.pkgd.min
-//= require plugins/parallax/jquery.parallax.min
-//= require plugins/easypiechart/jquery.easypiechart.min
-//= require plugins/itplayer/jquery.mb.YTPlayer
-//= require plugins/easytabs/jquery.easytabs.min
-//= require plugins/waypoints/waypoints.min
-//= require plugins/waypoints/waypoints-sticky.min
-//= require plugins/jqueryvalidate/jquery.validate.min
-//= require plugins/jqueryform/jquery.form.min
-//= require plugins/gmap/jquery.gmap.min
-//= require plugins/twitter/twitterfetcher
+//= require _libs/jquery-2.1.1.min
+//= require _libs/viewport/jquery.viewport
+//= require _libs/easing/jquery.easing.1.3
+//= require _libs/simpleplaceholder/jquery.simpleplaceholder
+//= require _libs/fitvids/jquery.fitvids
+//= require _libs/animations/animate
+//= require _libs/superfish/hoverIntent
+//= require _libs/superfish/superfish
+//= require _libs/revolutionslider/jquery.themepunch.plugins.min
+//= require _libs/revolutionslider/jquery.themepunch.revolution.min
+//= require _libs/bxslider/jquery.bxslider.min
+//= require _libs/magnificpopup/jquery.magnific-popup.min
+//= require _libs/isotope/imagesloaded.pkgd.min
+//= require _libs/isotope/isotope.pkgd.min
+//= require _libs/parallax/jquery.parallax.min
+//= require _libs/easypiechart/jquery.easypiechart.min
+//= require _libs/itplayer/jquery.mb.YTPlayer
+//= require _libs/easytabs/jquery.easytabs.min
+//= require _libs/waypoints/waypoints.min
+//= require _libs/waypoints/waypoints-sticky.min
+//= require _libs/jqueryvalidate/jquery.validate.min
+//= require _libs/jqueryform/jquery.form.min
+//= require _libs/gmap/jquery.gmap.min
+//= require _libs/twitter/twitterfetcher
 //
 // Template JS
-//= require scripts
-//= require plugins
+//= require _scripts
+//= require _plugins
 //

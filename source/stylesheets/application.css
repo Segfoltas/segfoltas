@@ -1,28 +1,28 @@
 /*
  * Libs
- *= require fontawesome/font-awesome
- *= require iconfontcustom/icon-font-custom
+ *= require _libs/fontawesome/font-awesome
+ *= require _libs/iconfontcustom/icon-font-custom
  *
  * Template CSS
- *= require base
- *= require grid
- *= require elements
- *= require layout
+ *= require _base
+ *= require _grid
+ *= require _elements
+ *= require _layout
  *
  * JS plugin CSS
- *= require plugins/revolutionslider/settings
- *= require plugins/revolutionslider/custom
- *= require plugins/bxslider/jquery.bxslider
- *= require plugins/magnificpopup/magnific-popup
- *= require plugins/animations/animate.min
- *= require plugins/itplayer/YTPlayer
+ *= require _libs/revolutionslider/settings
+ *= require _libs/revolutionslider/custom
+ *= require _libs/bxslider/jquery.bxslider
+ *= require _libs/magnificpopup/magnific-popup
+ *= require _libs/animations/animate.min
+ *= require _libs/itplayer/YTPlayer
  *
  * Disabled styles
- *  boxed - for the boxed layout
+ *  _boxed - for the boxed layout
  *
  * Skins
- *  skins/default.css
- *  skins/red.css
- *  skins/orange.css
- *  skins/grey.css
+ *  _skins/default.css
+ *  _skins/red.css
+ *  _skins/orange.css
+ *  _skins/grey.css
  */
