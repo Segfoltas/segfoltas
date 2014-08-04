@@ -1,29 +1,28 @@
 #header
-  / HEADER
   .row
     .span3
       %a#logo{:href => url_for('index.html') }
-        %img.responsive-img{:alt => "", :src => "/images/logo.png"}
+        = image_tag 'logo.png', class: 'responsive-img'
     .span9
-      %a#mobile-menu-trigger{:href => "#"}
+      %a#mobile-menu-trigger{ href: '#' }
         %i.fa.fa-bars
       %ul#menu.sf-menu.fixed
         %li.current
-          %a{:href => url_for('index.html') }
+          %a{ href: url_for('index.html') }
             %span Home
         %li.dropdown
-          %a{:href => "portfolio-3.html"}
+          %a{ href: 'portfolio-3.html' }
             %span Portfolio
           %ul
             %li
-              %a{:href => "portfolio-item.html"} Portfolio item
+              %a{ href: 'portfolio-item.html' } Portfolio item
             %li
-              %a{:href => "portfolio-item.html"} Portfolio item
+              %a{ href: 'portfolio-item.html' } Portfolio item
             %li
-              %a{:href => "portfolio-item.html"} Portfolio item
+              %a{ href: 'portfolio-item.html' } Portfolio item
         %li
-          %a{:href => "services.html"}
+          %a{ href: 'services.html' }
             %span Services
         %li
-          %a{:href => "contact.html"}
+          %a{ href: 'contact.html' }
             %span Contact
