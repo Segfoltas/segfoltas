@@ -1,0 +1,16 @@
+#header-top
+  / HEADER TOP
+  .row
+    #header-top-widget-area-1.span8
+      .widget.ewf_contact_info
+        %ul
+          %li
+            %i.ifc-phone1
+            = data.contacts.phone
+          %li
+            %i.ifc-message
+            %a{:href => "mailto:#{data.contacts.email}"}= data.contacts.email
+
+    #header-top-widget-area-2.span4
+      .widget.ewf_social_media
+        = partial 'social_icons'
