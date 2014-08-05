@@ -4,13 +4,12 @@
   url_name: socialheat
   url: socialheat.lt
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.
+    Mobile app that finds all events in your area and presents them in order of
+    popularity or time acounting the time it would take to travel to the
+    location.
   images:
     big: portfolio/570x350-4.png
+    medium: portfolio/370x320-4.png
     small:
       - portfolio/270x205-1.png
       - portfolio/270x205-2.png
@@ -29,3 +28,38 @@
         Duis adipiscing sem sed adipiscing vestibulum. Praesent metus neque,
         pulvinar ac luctus non, tincidunt ut mi. Cras mattis ligula nec odio
         tincidunt, nec faucibus diam fringilla massa auctor sit.
+
+- name: Contact exchange
+  url_name: contact-exchange
+  url: contact-exchange.herokuapp.com
+  tagline: Easiest way to exchange contacts.
+  description: |
+    Each user receives a unique URL. If someone connected to google account
+    opens it, then his/hers contacts will be added to the URL owner's smartphone
+    contact list and vice versa.
+  images:
+    big: portfolio/570x350-4.png
+    medium: portfolio/370x320-4.png
+    small:
+      - portfolio/270x205-1.png
+      - portfolio/270x205-2.png
+      - portfolio/270x205-3.png
+      - portfolio/270x205-4.png
+
+- name: ePagalba
+  url_name: epagalba
+  tagline: An app that calls emergency services
+  description: |
+    After a cruel tragedy a major error was displayed in emergency response
+    services. Operators often could not know where the person was or could only
+    tell the location in a few kilometer radius. We crafted an app that would
+    pass geolocation data from a user's smartphone and any additional
+    information directly to the emergency response service operators.
+  images:
+    big: portfolio/570x350-4.png
+    medium: portfolio/370x320-4.png
+    small:
+      - portfolio/270x205-1.png
+      - portfolio/270x205-2.png
+      - portfolio/270x205-3.png
+      - portfolio/270x205-4.png
