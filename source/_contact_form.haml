@@ -1,0 +1,42 @@
+.row
+  .span8
+    %h3
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+    %p
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+
+    = form_tag '/php/send.php', method: 'post', class: 'fixed', id: 'contact-form' do
+      = field_set_tag do
+        #formstatus
+        .row
+          .span4
+            %p
+              = text_field_tag :name, placeholder: 'name', class: 'span4'
+          .span4
+            %p
+              = text_field_tag :email, placeholder: 'email', class: 'span4'
+        %p
+          = text_field_tag :subject, placeholder: 'subject', class: 'span8'
+        %p
+          = text_area_tag :message, placeholder: 'write a message', class: 'span8', rows: 7, cols: 25
+        %p.last.text-right
+          = submit_tag 'Send', class: 'btn'
+
+  .span4
+    %h2 Adress Information
+    %br
+    %address
+      = data.contacts.address_one
+      %br
+      = data.contacts.address_two
+      %br
+      = data.contacts.phone
+      %br
+      %a{ href: "mailto:#{data.contacts.email}" }= data.contacts.email
+    .fixed
+      = partial 'social_icons'
+    %br
+    %h2 A Simple Text
+    %br
+    %p
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.

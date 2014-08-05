@@ -46,8 +46,10 @@
       = yield
 
     #footer
-      = partial 'layouts/contact_form'
-      = partial 'layouts/footer'
+      #footer-middle
+        = yield_content :footer
+      #footer-bottom
+        = partial 'layouts/footer'
 
     %a{ id: 'back-to-top', href: '#' }
       %i.ifc-up4
