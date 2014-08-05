@@ -1,0 +1,60 @@
+#content
+  #page-header
+    .row
+      .span12
+        %h2 Portfolio
+
+  .row
+    .span12
+      .portfolio-item
+        .row
+          .span6
+            .headline
+              %h2= project.name
+
+            .portfolio-item-description
+              %h3 This is Autumn
+              - if project.client
+                %h3
+                  Client:
+                  %span= project.client
+              %h3
+                Url:
+                %span
+                  %a{href: "http://#{project.url}"}= project.url
+              %p= project.description
+
+          .span6
+            .portfolio-item-preview{ style: 'margin-top:60px;' }
+              = image_tag project.images.big
+              .portfolio-item-overlay
+                .portfolio-item-overlay-actions
+                  %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(project.images.big) }
+                    %i.ifc-zoom_in
+
+  .row
+    - project.images.small.each do |image|
+      .span3
+        .portfolio-item
+          .portfolio-item-preview
+            = image_tag image
+            .portfolio-item-overlay
+              .portfolio-item-overlay-actions
+                %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(image) }
+                  %i.ifc-zoom_in
+
+  - if project.testimonials
+    .row
+      .span12
+        .headline{style: 'margin-bottom:100px;'}
+          %h2 What Our Customers Say
+    
+    .row
+
+      - project.testimonials.each do |testimonial|
+        .span6
+          .testimonial
+            = image_tag testimonial.image
+            %blockquote
+              %h5= testimonial.who
+              %p= testimonial.text

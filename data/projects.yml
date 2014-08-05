@@ -1,0 +1,31 @@
+---
+
+- name: Socialheat
+  url_name: socialheat
+  url: socialheat.lt
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur.
+  images:
+    big: portfolio/570x350-4.png
+    small:
+      - portfolio/270x205-1.png
+      - portfolio/270x205-2.png
+      - portfolio/270x205-3.png
+      - portfolio/270x205-4.png
+  testimonials:
+    - image: testimonials/105x105-1.png
+      who: 'Jane Doe, CEO, Creatika'
+      text: |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+    - image: testimonials/105x105-2.png
+      who: 'John Doe, HR, Diamond INK'
+      text: |
+        Duis adipiscing sem sed adipiscing vestibulum. Praesent metus neque,
+        pulvinar ac luctus non, tincidunt ut mi. Cras mattis ligula nec odio
+        tincidunt, nec faucibus diam fringilla massa auctor sit.

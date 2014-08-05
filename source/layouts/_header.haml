@@ -14,12 +14,9 @@
           %a{ href: 'portfolio-3.html' }
             %span Portfolio
           %ul
-            %li
-              %a{ href: 'portfolio-item.html' } Portfolio item
-            %li
-              %a{ href: 'portfolio-item.html' } Portfolio item
-            %li
-              %a{ href: 'portfolio-item.html' } Portfolio item
+            - data.projects.each do |project|
+              %li
+                = link_to project.name, "project/#{project.url_name}.html"
         %li
           %a{ href: 'services.html' }
             %span Services
