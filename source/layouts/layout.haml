@@ -29,7 +29,7 @@
       %i.fa.fa-times-circle
         You seem to have Javascript disabled. This website needs javascript in order to function properly!
 
-  /[if IE]
+  /[if IE 8]
     .alert.error
       You are using an
       %strong outdated
@@ -42,7 +42,12 @@
     = partial 'layouts/header_top'
     = partial 'layouts/header'
 
-    = yield
+    #content
+      = yield
+
+    #footer
+      = partial 'layouts/contact_form'
+      = partial 'layouts/footer'
 
     %a{ id: 'back-to-top', href: '#' }
       %i.ifc-up4
