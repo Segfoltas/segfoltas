@@ -3,12 +3,6 @@
  *= require _libs/fontawesome/font-awesome
  *= require _libs/iconfontcustom/icon-font-custom
  *
- * Template CSS
- *= require _base
- *= require _grid
- *= require _elements
- *= require _layout
- *
  * JS plugin CSS
  *= require _libs/revolutionslider/settings
  *= require _libs/revolutionslider/custom
@@ -16,6 +10,14 @@
  *= require _libs/magnificpopup/magnific-popup
  *= require _libs/animations/animate.min
  *= require _libs/itplayer/YTPlayer
+ *= require _libs/object-fit/polyfill.object-fit
+ *
+ * Template CSS
+ *= require _base
+ *= require _grid
+ *= require _elements
+ *= require _layout
+ *= require _images
  *
  * Disabled styles
  *  _boxed - for the boxed layout

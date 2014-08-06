@@ -1,0 +1,22 @@
+@mixin image-cover {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.portfolio-image-small {
+  width: 270px;
+  height: 205px;
+  @include image-cover;
+}
+
+.portfolio-image-medium {
+  width: 370px;
+  height: 320px;
+  @include image-cover;
+}
+
+.portfolio-image-large {
+  width: 570px;
+  height: 350px;
+  @include image-cover;
+}

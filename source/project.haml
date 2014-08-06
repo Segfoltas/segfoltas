@@ -24,24 +24,24 @@
               %h3
                 Url:
                 %span
-                  %a{href: "http://#{project.url}"}= project.url
+                  %a{ href: "http://#{project.url}" }= project.url
             
             %p= project.description
 
         .span6
-          .portfolio-item-preview{ style: 'margin-top:60px;' }
-            = image_tag project.images.big
+          .portfolio-item-preview{ style: 'margin-top: 60px;' }
+            = image_tag project.images.first, class: 'portfolio-image-large'
             .portfolio-item-overlay
               .portfolio-item-overlay-actions
-                %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(project.images.big) }
+                %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(project.images.first) }
                   %i.ifc-zoom_in
 
 .row
-  - project.images.small.each do |image|
+  - project.images.drop(1).each do |image|
     .span3
       .portfolio-item
         .portfolio-item-preview
-          = image_tag image
+          = image_tag image, class: 'portfolio-image-small'
           .portfolio-item-overlay
             .portfolio-item-overlay-actions
               %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(image) }
@@ -50,11 +50,10 @@
 - if project.testimonials
   .row
     .span12
-      .headline{style: 'margin-bottom:100px;'}
+      .headline{ style: 'margin-bottom: 100px;' }
         %h2 What Our Customers Say
   
   .row
-
     - project.testimonials.each do |testimonial|
       .span6
         .testimonial

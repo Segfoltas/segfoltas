@@ -24,6 +24,7 @@
 //= require _libs/jqueryform/jquery.form.min
 //= require _libs/gmap/jquery.gmap.min
 //= require _libs/twitter/twitterfetcher
+//= require _libs/object-fit/polyfill.object-fit
 //
 // Template JS
 //= require _scripts

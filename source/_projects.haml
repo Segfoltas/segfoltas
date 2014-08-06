@@ -9,12 +9,12 @@
       .span4
         .portfolio-item
           .portfolio-item-preview
-            = image_tag project.images.medium
+            = image_tag project.images.first, class: 'portfolio-image-medium'
             .portfolio-item-overlay
               .portfolio-item-overlay-actions
                 %a.portfolio-item-link{ href: url_for("/project/#{project.url_name}.html") }
                   %i.ifc-link
-                %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(project.images.medium) }
+                %a.magnificPopup-gallery.portfolio-item-zoom{ href: image_path(project.images.first) }
                   %i.ifc-zoom_in
 
           .portfolio-item-description

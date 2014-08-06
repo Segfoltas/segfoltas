@@ -8,13 +8,11 @@
     popularity or time acounting the time it would take to travel to the
     location.
   images:
-    big: portfolio/570x350-4.png
-    medium: portfolio/370x320-4.png
-    small:
-      - portfolio/270x205-1.png
-      - portfolio/270x205-2.png
-      - portfolio/270x205-3.png
-      - portfolio/270x205-4.png
+    - portfolio/570x350-4.png
+    - portfolio/270x205-1.png
+    - portfolio/270x205-2.png
+    - portfolio/270x205-3.png
+    - portfolio/270x205-4.png
   testimonials:
     - image: testimonials/105x105-1.png
       who: 'Jane Doe, CEO, Creatika'
@@ -38,13 +36,11 @@
     opens it, then his/hers contacts will be added to the URL owner's smartphone
     contact list and vice versa.
   images:
-    big: portfolio/570x350-4.png
-    medium: portfolio/370x320-4.png
-    small:
-      - portfolio/270x205-1.png
-      - portfolio/270x205-2.png
-      - portfolio/270x205-3.png
-      - portfolio/270x205-4.png
+    - portfolio/570x350-4.png
+    - portfolio/270x205-1.png
+    - portfolio/270x205-2.png
+    - portfolio/270x205-3.png
+    - portfolio/270x205-4.png
 
 - name: ePagalba
   url_name: epagalba
@@ -56,10 +52,8 @@
     pass geolocation data from a user's smartphone and any additional
     information directly to the emergency response service operators.
   images:
-    big: portfolio/570x350-4.png
-    medium: portfolio/370x320-4.png
-    small:
-      - portfolio/270x205-1.png
-      - portfolio/270x205-2.png
-      - portfolio/270x205-3.png
-      - portfolio/270x205-4.png
+    - portfolio/570x350-4.png
+    - portfolio/270x205-1.png
+    - portfolio/270x205-2.png
+    - portfolio/270x205-3.png
+    - portfolio/270x205-4.png
