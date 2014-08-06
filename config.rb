@@ -47,8 +47,14 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def current_for(url)
-    current_page.url == url_for(url, relative: false) ? 'current' : ''
+  def current_for(url, opts = {})
+    add_class = if opts[:subpath]
+      current_page.url.start_with? url
+    else
+      current_page.url == url_for(url, relative: false)
+    end
+
+    add_class ? 'current' : nil
   end
 end
 

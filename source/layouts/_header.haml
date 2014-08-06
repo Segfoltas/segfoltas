@@ -11,8 +11,8 @@
           %a{ href: url_for('/index.html') }
             %span Home
 
-        %li.dropdown
-          %a{ href: '#' }
+        %li.dropdown{ class: current_for('/project', subpath: true) }
+          %a
             %span Portfolio
           %ul
             - data.projects.each do |project|
