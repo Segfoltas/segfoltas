@@ -24,32 +24,32 @@
  
   %body.sticky-header
 
-  %noscript
-    .alert.warning
-      %i.fa.fa-times-circle
-        You seem to have Javascript disabled. This website needs javascript in order to function properly!
+    %noscript
+      .alert.warning
+        %i.fa.fa-times-circle
+          You seem to have Javascript disabled. This website needs javascript in order to function properly!
 
-  /[if IE 8]
-    .alert.error
-      You are using an
-      %strong outdated
-      browser. Please 
-      %a{ href: 'http://windows.microsoft.com/en-us/internet-explorer/download-ie' }
-        upgrade your browser
-      to improve your experience.
+    /[if IE 8]
+      .alert.error
+        You are using an
+        %strong outdated
+        browser. Please 
+        %a{ href: 'http://windows.microsoft.com/en-us/internet-explorer/download-ie' }
+          upgrade your browser
+        to improve your experience.
 
-  #wrap
-    = partial 'layouts/header_top'
-    = partial 'layouts/header'
+    #wrap
+      = partial 'layouts/header_top'
+      = partial 'layouts/header'
 
-    #content
-      = yield
+      #content
+        = yield
 
-    #footer
-      #footer-middle
-        = yield_content :footer
-      #footer-bottom
-        = partial 'layouts/footer'
+      #footer
+        #footer-middle
+          = yield_content :footer
+        #footer-bottom
+          = partial 'layouts/footer'
 
-    %a{ id: 'back-to-top', href: '#' }
-      %i.ifc-up4
+      %a{ id: 'back-to-top', href: '#' }
+        %i.ifc-up4
