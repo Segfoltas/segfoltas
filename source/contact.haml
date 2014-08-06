@@ -10,7 +10,7 @@
 
 = partial 'contact_form'
 
-.google-map.map{ 'data-address' => 'Studentų g. 57, Kaunas', 'data-caption' => 'StartupSpace Unit 6', 'data-zoom' => '16', style: 'margin-bottom: -50px;' }
+.google-map.map{ 'data-address' => "#{data.contacts.coordinates.latitude}, #{data.contacts.coordinates.longitude}", 'data-caption' => 'Segfoltas', 'data-zoom' => '16', style: 'margin-bottom: -50px;' }
   %p This will be replaced with the Google Map.
 
 - content_for :footer do
