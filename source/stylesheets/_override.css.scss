@@ -1,0 +1,27 @@
+body {
+  font: 14px 'Open Sans', Arial, sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+}
+
+.alert {
+  font: 18px 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.alert.info {
+  border: 1px solid $brand-color;
+  background-color: $brand-color;
+  color: #fff;
+}
+
+.alert a {
+  color: #fff;
+}

@@ -1,0 +1,32 @@
+// Libs
+@import '_libs/fontawesome/font-awesome';
+@import '_libs/iconfontcustom/icon-font-custom';
+
+// JS plugin CSS
+@import "_libs/revolutionslider/settings";
+@import "_libs/revolutionslider/custom";
+@import "_libs/bxslider/jquery.bxslider";
+@import "_libs/magnificpopup/magnific-popup";
+@import "_libs/animations/animate.min";
+@import "_libs/itplayer/YTPlayer";
+@import "_libs/object-fit/polyfill.object-fit";
+
+// Template CSS
+@import "_template/base";
+@import "_template/grid";
+@import "_template/elements";
+@import "_template/layout";
+@import "_template/images";
+
+// Disabled styles
+// @import "template/_boxed"; // for the boxed layout
+
+// Skins
+@import "_template/skins/orange";
+// @import "_template/skins/default";
+// @import "_template/skins/red";
+// @import "_template/skins/grey";
+
+// Application CSS
+@import "variables";
+@import "override";
